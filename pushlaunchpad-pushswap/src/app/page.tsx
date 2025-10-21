@@ -302,7 +302,7 @@ export default function Home() {
               <ul className="space-y-2">
                 <li><Link href="/docs" className="hover:text-white transition-colors">Documentation</Link></li>
                 <li><a href="#" className="hover:text-white transition-colors">API Reference</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">GitHub</a></li>
+                <li><a href="https://github.com/leojay-net/Push-Launch-V2" className="hover:text-white transition-colors">GitHub</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
               </ul>
             </div>

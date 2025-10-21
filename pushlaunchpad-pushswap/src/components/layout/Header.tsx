@@ -30,7 +30,7 @@ const navigation = [
 
 const externalLinks = [
     { name: "Docs", href: "/docs", icon: FileText },
-    { name: "GitHub", href: "https://github.com/pushprotocol", icon: Github },
+    { name: "GitHub", href: "https://github.com/leojay-net/Push-Launch-V2", icon: Github },
 ];
 
 export default function Header() {
