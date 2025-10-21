@@ -181,7 +181,10 @@ export function useLiquidityV3() {
                         const toTopic = ethers.zeroPadValue(account, 32);
 
                         const latest = await rpcProvider.getBlockNumber();
-                        const maxRange = 9000; // below 10k limit per RPC
+                        const maxRange = Math.min(
+                            9500,
+                            Math.max(1000, Number(process.env.NEXT_PUBLIC_RPC_LOG_CHUNK || 9000))
+                        ); // keep safely below 10k provider window
                         const maxDepth = Number(process.env.NEXT_PUBLIC_POSITIONS_LOOKBACK_BLOCKS || 400000);
                         const startBound = Math.max(0, latest - maxDepth);
                         let end = latest;
@@ -259,27 +262,44 @@ export function useLiquidityV3() {
                     }
                 }
 
-                // Always scan a recent window for any new transfers to the account and merge
+                // Always scan a recent window for any new transfers to the account and merge (chunked to respect RPC limits)
                 try {
                     const transferTopic = ethers.id("Transfer(address,address,uint256)");
                     const toTopic = ethers.zeroPadValue(account, 32);
                     const latest = await rpcProvider.getBlockNumber();
                     const recentDepth = Number(process.env.NEXT_PUBLIC_POSITIONS_RECENT_LOOKBACK || 50000);
-                    const start = Math.max(0, latest - recentDepth);
-                    const logs = await rpcProvider.getLogs({
-                        address: CONTRACTS.V3_POSITION_MANAGER,
-                        fromBlock: ("0x" + start.toString(16)) as any,
-                        toBlock: ("0x" + latest.toString(16)) as any,
-                        topics: [transferTopic, null, toTopic],
-                    } as any);
+                    const startBound = Math.max(0, latest - recentDepth);
+                    const maxRange = Math.min(
+                        9500,
+                        Math.max(1000, Number(process.env.NEXT_PUBLIC_RPC_LOG_CHUNK || 9000))
+                    ); // stay below typical 10k block range limits on many RPCs
+
                     const discovered: string[] = [];
-                    for (const log of logs) {
-                        if (!log.topics || log.topics.length < 4) continue;
+
+                    let from = startBound;
+                    while (from <= latest) {
+                        const to = Math.min(latest, from + maxRange);
                         try {
-                            const id = BigInt(log.topics[3]).toString();
-                            if (!tokenIds.includes(id)) discovered.push(id);
-                        } catch { }
+                            const logs = await rpcProvider.getLogs({
+                                address: CONTRACTS.V3_POSITION_MANAGER,
+                                fromBlock: ("0x" + from.toString(16)) as any,
+                                toBlock: ("0x" + to.toString(16)) as any,
+                                topics: [transferTopic, null, toTopic],
+                            } as any);
+                            for (const log of logs) {
+                                if (!log.topics || log.topics.length < 4) continue;
+                                try {
+                                    const id = BigInt(log.topics[3]).toString();
+                                    if (!tokenIds.includes(id) && !discovered.includes(id)) discovered.push(id);
+                                } catch { }
+                            }
+                        } catch (chunkErr) {
+                            // Log and continue with next chunk to be resilient to intermittent provider issues
+                            console.warn(`⚠️ Recent transfer scan chunk failed [${from}-${to}]:`, chunkErr);
+                        }
+                        from = to + 1;
                     }
+
                     if (discovered.length > 0) {
                         // Verify current owner to avoid stale transfers
                         const verified: string[] = [];
