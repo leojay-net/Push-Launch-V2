@@ -1,0 +1,40 @@
+{
+  "network": "Push Chain Testnet",
+  "chainId": 42101,
+  "router": null,
+  "weth": null,
+  "deployer": "0xFc2A93710538Ba2395F4BD015F088233bb280994",
+  "tokens": [
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "address": "0xf5065BA2DBF1Ec636531253449983f0EafebfD87"
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "address": "0x8afc81487682024368AC225B799C3b325D82BEB4"
+    },
+    {
+      "name": "DAI",
+      "symbol": "DAI",
+      "decimals": 18,
+      "address": "0x9395EcA683139b9Fe59D4E56dF4Eb132f0F2a103"
+    },
+    {
+      "name": "BSC",
+      "symbol": "BSC",
+      "decimals": 18,
+      "address": "0xE6AEead4278FC9d7Ee83780F5378C30838B9a0bA"
+    },
+    {
+      "name": "WPUSH",
+      "symbol": "WPUSH",
+      "decimals": 18,
+      "address": "0x1e87a2194c31bFDE3999074e3EbB34d5c5830985"
+    }
+  ],
+  "timestamp": "2025-10-18T01:56:03.198Z"
+}

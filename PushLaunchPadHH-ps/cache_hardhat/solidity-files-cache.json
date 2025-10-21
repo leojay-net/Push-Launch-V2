@@ -1,0 +1,2361 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/ERC1967Factory.sol": {
+      "lastModificationDate": 1760928545276,
+      "contentHash": "1ac52cbeaecd8ac52f49f55293a54d77",
+      "sourceName": "contracts/ERC1967Factory.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ERC1967Factory"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/BondingCurve.sol": {
+      "lastModificationDate": 1760929660262,
+      "contentHash": "abf0af6da472a28fc57ad26366382078",
+      "sourceName": "contracts/launchpad/BondingCurve.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "BondingCurve"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/BondingCurves/IBondingCurveMinimal.sol": {
+      "lastModificationDate": 1760929660263,
+      "contentHash": "13da8bc56db0ddf01e22844a41e9b055",
+      "sourceName": "contracts/launchpad/BondingCurves/IBondingCurveMinimal.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IBondingCurveMinimal"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/@openzeppelin/contracts/interfaces/IERC165.sol": {
+      "lastModificationDate": 1760929438573,
+      "contentHash": "947853028399b7de34bcc3704ee06e99",
+      "sourceName": "@openzeppelin/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.16"
+      ],
+      "artifacts": []
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1760929438575,
+      "contentHash": "7074c93b1ea0a122063f26ddd1db1032",
+      "sourceName": "@openzeppelin/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.16"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/ILaunchpad.sol": {
+      "lastModificationDate": 1760929660267,
+      "contentHash": "d5483b26e6c489020d94bec5d3be37a2",
+      "sourceName": "contracts/launchpad/interfaces/ILaunchpad.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../LaunchToken.sol",
+        "../BondingCurves/IBondingCurveMinimal.sol",
+        "./IDistributor.sol",
+        "./INonfungiblePositionManager.sol",
+        "./ISwapRouter.sol",
+        "../LaunchpadLPVault.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "ILaunchpad"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/LaunchToken.sol": {
+      "lastModificationDate": 1760929660263,
+      "contentHash": "d0f402f1797a43d1ed956aedd6d56176",
+      "sourceName": "contracts/launchpad/LaunchToken.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solady/tokens/ERC20.sol",
+        "./interfaces/ILaunchpad.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "LaunchToken"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/LaunchpadLPVault.sol": {
+      "lastModificationDate": 1760929660264,
+      "contentHash": "fa1593ce91d24fcfe9ad340e9c1b5669",
+      "sourceName": "contracts/launchpad/LaunchpadLPVault.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin-contracts-upgradeable/access/Ownable2StepUpgradeable.sol",
+        "@openzeppelin/token/ERC721/IERC721Receiver.sol",
+        "./interfaces/INonfungiblePositionManager.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "LaunchpadLPVault"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/INonfungiblePositionManager.sol": {
+      "lastModificationDate": 1760929660266,
+      "contentHash": "c11ff33779dfae31e922fff0fd6c3409",
+      "sourceName": "contracts/launchpad/interfaces/INonfungiblePositionManager.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.5"
+      ],
+      "artifacts": [
+        "INonfungiblePositionManager"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/ISwapRouter.sol": {
+      "lastModificationDate": 1760929660266,
+      "contentHash": "86b0c97b15596184f0ac059ad48b0e31",
+      "sourceName": "contracts/launchpad/interfaces/ISwapRouter.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.5"
+      ],
+      "artifacts": [
+        "ISwapRouter"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/IDistributor.sol": {
+      "lastModificationDate": 1760929660266,
+      "contentHash": "d27533a8506f6c0f1d1943695e2f8a14",
+      "sourceName": "contracts/launchpad/interfaces/IDistributor.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV3Pool.sol",
+        "../libraries/RewardsTracker.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IDistributor"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/solady/src/tokens/ERC20.sol": {
+      "lastModificationDate": 1760929437510,
+      "contentHash": "cfcb8f86e32bb3ba406bb61907774b6a",
+      "sourceName": "@solady/tokens/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1760929438627,
+      "contentHash": "d61660a41ce200e99816e4734f7fd202",
+      "sourceName": "@openzeppelin/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol": {
+      "lastModificationDate": 1760929438270,
+      "contentHash": "c14401b3899fa52b32a4cb2a1bd22126",
+      "sourceName": "@openzeppelin-contracts-upgradeable/access/Ownable2StepUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OwnableUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Ownable2StepUpgradeable"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1760929438243,
+      "contentHash": "2acae54ad209714bca07edf4bae32f72",
+      "sourceName": "@openzeppelin-contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1760929438274,
+      "contentHash": "77d30f3cd93f46b80b6f8f1ebc574ee4",
+      "sourceName": "@openzeppelin-contracts-upgradeable/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "OwnableUpgradeable"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1760929437787,
+      "contentHash": "c28aaa25d083a9a55bd9ec9e0b785122",
+      "sourceName": "@openzeppelin-contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/libraries/RewardsTracker.sol": {
+      "lastModificationDate": 1760929660268,
+      "contentHash": "fbd3a97c0890bc50d0204a675eb2080c",
+      "sourceName": "contracts/launchpad/libraries/RewardsTracker.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "RewardsTrackerLib",
+        "RewardsTrackerStorage"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/IUniswapV3Pool.sol": {
+      "lastModificationDate": 1760929660265,
+      "contentHash": "b09f9b0cbba295410566e4e8b872f155",
+      "sourceName": "contracts/launchpad/interfaces/IUniswapV3Pool.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3Pool"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/PushLaunchpadV2Pair.sol": {
+      "lastModificationDate": 1760929660272,
+      "contentHash": "ce1569e33090724dd2a96598e1dca6ad",
+      "sourceName": "contracts/launchpad/uniswap/PushLaunchpadV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../univ2-core/interfaces/IUniswapV2Pair.sol",
+        "../../univ2-core/UniswapV2ERC20.sol",
+        "../../univ2-core/libraries/Math.sol",
+        "../../univ2-core/libraries/UQ112x112.sol",
+        "../../univ2-core/interfaces/IERC20.sol",
+        "../../univ2-core/interfaces/IUniswapV2Factory.sol",
+        "../../univ2-core/interfaces/IUniswapV2Callee.sol",
+        "../interfaces/IDistributor.sol",
+        "./interfaces/IPushLaunchpadV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "PushLaunchpadV2Pair"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/univ2-core/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1760928625375,
+      "contentHash": "907337652a46d4d066cb5dc3fa63d47e",
+      "sourceName": "contracts/univ2-core/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/univ2-core/UniswapV2ERC20.sol": {
+      "lastModificationDate": 1760928625373,
+      "contentHash": "fa4c0a7d588fff9858e00b879e1a6051",
+      "sourceName": "contracts/univ2-core/UniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2ERC20.sol",
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "UniswapV2ERC20"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/univ2-core/libraries/Math.sol": {
+      "lastModificationDate": 1760928625376,
+      "contentHash": "6a9da91b6350fb4252c78b7096f8bf53",
+      "sourceName": "contracts/univ2-core/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/univ2-core/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1760928625376,
+      "contentHash": "e8a73d60a4b22dbbbc8d0d89eeb7fe1a",
+      "sourceName": "contracts/univ2-core/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/univ2-core/interfaces/IERC20.sol": {
+      "lastModificationDate": 1760928625373,
+      "contentHash": "fa48b4e06085a196c125094d7bae383a",
+      "sourceName": "contracts/univ2-core/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/univ2-core/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1760928625375,
+      "contentHash": "298d78253b7d6276c3057189f0919a59",
+      "sourceName": "contracts/univ2-core/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/univ2-core/interfaces/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1760928625374,
+      "contentHash": "2abaf64c6253c94f2459817d211decfc",
+      "sourceName": "contracts/univ2-core/interfaces/IUniswapV2Callee.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IUniswapV2Callee"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/interfaces/IPushLaunchpadV2Pair.sol": {
+      "lastModificationDate": 1760929660272,
+      "contentHash": "1b940d1c1f618491c310c452610c7b0e",
+      "sourceName": "contracts/launchpad/uniswap/interfaces/IPushLaunchpadV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IPushLaunchpadV2Pair"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/univ2-core/interfaces/IUniswapV2ERC20.sol": {
+      "lastModificationDate": 1760928625374,
+      "contentHash": "fe600dfbc34e255905db495457b4fcf0",
+      "sourceName": "contracts/univ2-core/interfaces/IUniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IUniswapV2ERC20"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/univ2-core/libraries/SafeMath.sol": {
+      "lastModificationDate": 1760928625376,
+      "contentHash": "9a4225a5ff7c34143d6771008c290ba7",
+      "sourceName": "contracts/univ2-core/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/PushLaunchpadV2PairFactory.sol": {
+      "lastModificationDate": 1760929660268,
+      "contentHash": "781b570685dcb6e993141e00f4f0642d",
+      "sourceName": "contracts/launchpad/uniswap/PushLaunchpadV2PairFactory.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../univ2-core/interfaces/IUniswapV2Factory.sol",
+        "./PushLaunchpadV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "PushLaunchpadV2PairFactory"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/interfaces/IUniswapV2PairFull.sol": {
+      "lastModificationDate": 1760929660273,
+      "contentHash": "6cca1367dd75b91afe73eaef609e7aa4",
+      "sourceName": "contracts/launchpad/uniswap/interfaces/IUniswapV2PairFull.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../univ2-core/interfaces/IUniswapV2ERC20.sol",
+        "../../../univ2-core/interfaces/IUniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2PairFull"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/libraries/UniswapV2Library.sol": {
+      "lastModificationDate": 1760929660269,
+      "contentHash": "9ab56da66b0dd654962a8bf394c59a0c",
+      "sourceName": "contracts/launchpad/uniswap/libraries/UniswapV2Library.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../univ2-core/interfaces/IUniswapV2Pair.sol",
+        "../interfaces/IUniswapV2Factory.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "UniswapV2Library"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1760929660273,
+      "contentHash": "aabde770e45234e8e524aa0babcde7fb",
+      "sourceName": "contracts/launchpad/uniswap/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/PushLaunchpadV2Router2.sol": {
+      "lastModificationDate": 1760929660271,
+      "contentHash": "5310931bf4ee03098d456dbb35639711",
+      "sourceName": "contracts/launchpad/uniswap/PushLaunchpadV2Router2.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Factory.sol",
+        "./libraries/TransferHelper.sol",
+        "./interfaces/IUniswapV2Router02.sol",
+        "./libraries/UniswapV2Library.sol",
+        "./interfaces/IUniswapV2PairFull.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWETH.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "PushLaunchpadV2Router2"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1760929660270,
+      "contentHash": "a13b76193dde37eea39ce6f2ccba83da",
+      "sourceName": "contracts/launchpad/uniswap/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1760929660272,
+      "contentHash": "0b40738178248d5a550bcb99b5451260",
+      "sourceName": "contracts/launchpad/uniswap/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/interfaces/IWETH.sol": {
+      "lastModificationDate": 1760929660273,
+      "contentHash": "44ce7026ece8ae7061ce8bd9c245bb3d",
+      "sourceName": "contracts/launchpad/uniswap/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/interfaces/IERC20.sol": {
+      "lastModificationDate": 1760929660272,
+      "contentHash": "77e7a67aa796d62581ab860a1c6a3a13",
+      "sourceName": "contracts/launchpad/uniswap/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1760929660272,
+      "contentHash": "60d25fef8a85052c100e85989e0ebd03",
+      "sourceName": "contracts/launchpad/uniswap/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/PushLaunchpadV2Router1.sol": {
+      "lastModificationDate": 1760929660271,
+      "contentHash": "10f651aecde9f65a913d9722b5881a1d",
+      "sourceName": "contracts/launchpad/uniswap/PushLaunchpadV2Router1.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Factory.sol",
+        "./libraries/TransferHelper.sol",
+        "./libraries/UniswapV2Library.sol",
+        "./interfaces/IUniswapV2Router01.sol",
+        "./interfaces/IUniswapV2PairFull.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWETH.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "PushLaunchpadV2Router1"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/Launchpad.sol": {
+      "lastModificationDate": 1760929660264,
+      "contentHash": "776544ec259ff7dead09b52c21e407ef",
+      "sourceName": "contracts/launchpad/Launchpad.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./LaunchToken.sol",
+        "./interfaces/IUniswapV3Factory.sol",
+        "./interfaces/IUniswapV3Pool.sol",
+        "./interfaces/INonfungiblePositionManager.sol",
+        "./interfaces/ISwapRouter.sol",
+        "./interfaces/ILaunchpad.sol",
+        "@solady/utils/SafeTransferLib.sol",
+        "@openzeppelin/utils/introspection/ERC165Checker.sol",
+        "./LaunchpadLPVault.sol",
+        "@solady/utils/Initializable.sol",
+        "@solady/auth/Ownable.sol",
+        "@solady/utils/ReentrancyGuard.sol",
+        "./interfaces/IUniswapV3Pool.sol",
+        "./interfaces/IDistributor.sol",
+        "./interfaces/IUniversal.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "Launchpad"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/IUniswapV3Factory.sol": {
+      "lastModificationDate": 1760929660264,
+      "contentHash": "da43c93ef033edd33dcdccb854865f61",
+      "sourceName": "contracts/launchpad/interfaces/IUniswapV3Factory.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV3Factory"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/IUniversal.sol": {
+      "lastModificationDate": 1760929660265,
+      "contentHash": "846188ef424803c7829c374d9214e97b",
+      "sourceName": "contracts/launchpad/interfaces/IUniversal.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IUEAFactory"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/solady/src/utils/SafeTransferLib.sol": {
+      "lastModificationDate": 1760929438069,
+      "contentHash": "5e22854eda2a751c711a9d8c47f0c1f1",
+      "sourceName": "@solady/utils/SafeTransferLib.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SafeTransferLib"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/solady/src/auth/Ownable.sol": {
+      "lastModificationDate": 1760929438029,
+      "contentHash": "c4dc3df5e9b88f1d361e92da30715f29",
+      "sourceName": "@solady/auth/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/solady/src/utils/ReentrancyGuard.sol": {
+      "lastModificationDate": 1760929438050,
+      "contentHash": "39e812ce8cd73640b88440226ecd3a42",
+      "sourceName": "@solady/utils/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/solady/src/utils/Initializable.sol": {
+      "lastModificationDate": 1760929437695,
+      "contentHash": "0b0371a24ce797d8f693e155cf148436",
+      "sourceName": "@solady/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/@openzeppelin/contracts/utils/introspection/ERC165Checker.sol": {
+      "lastModificationDate": 1760929438434,
+      "contentHash": "eafe06fae6ee9fcd48d1d2368945abe0",
+      "sourceName": "@openzeppelin/utils/introspection/ERC165Checker.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC165Checker"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/BondingCurves/SimpleBondingCurve.sol": {
+      "lastModificationDate": 1760929660262,
+      "contentHash": "00f3c93689728b9d533580c57fe26b5b",
+      "sourceName": "contracts/launchpad/BondingCurves/SimpleBondingCurve.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/interfaces/IERC165.sol",
+        "./IBondingCurveMinimal.sol",
+        "@solady/auth/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "SimpleBondingCurve"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/solady/src/auth/OwnableRoles.sol": {
+      "lastModificationDate": 1760929438033,
+      "contentHash": "d75b1ab9824b2ea5c4a38e03211ab03e",
+      "sourceName": "@solady/auth/OwnableRoles.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "OwnableRoles"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/Distributor.sol": {
+      "lastModificationDate": 1760929660263,
+      "contentHash": "91fafda73ea9af39f377b9ac1ff2cbe8",
+      "sourceName": "contracts/launchpad/Distributor.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solady/auth/OwnableRoles.sol",
+        "@solady/utils/SafeCastLib.sol",
+        "@solady/utils/SafeTransferLib.sol",
+        "./interfaces/IDistributor.sol",
+        "./interfaces/IUniswapV3Pool.sol",
+        "./libraries/RewardsTracker.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "Distributor"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/node_modules/solady/src/utils/SafeCastLib.sol": {
+      "lastModificationDate": 1760929438059,
+      "contentHash": "4dbea688703aebf51286eea1ca306941",
+      "sourceName": "@solady/utils/SafeCastLib.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SafeCastLib"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/IUniV2Factory.sol": {
+      "lastModificationDate": 1760929660266,
+      "contentHash": "f3318a183d1e3923fbe125e9a2ad4771",
+      "sourceName": "contracts/launchpad/interfaces/IUniV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IUniV2Factory"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/IUniswapV2FactoryMinimal.sol": {
+      "lastModificationDate": 1760929660265,
+      "contentHash": "53412299facdd52c12fb792a2a059d25",
+      "sourceName": "contracts/launchpad/interfaces/IUniswapV2FactoryMinimal.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IUniswapV2FactoryMinimal"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1760929660267,
+      "contentHash": "cf76a64c47683a3b5ad5be3e76e30fa3",
+      "sourceName": "contracts/launchpad/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/interfaces/IUniswapV2RouterMinimal.sol": {
+      "lastModificationDate": 1760929660267,
+      "contentHash": "7b1ebe1531e12dd20fa9f7108880edf9",
+      "sourceName": "contracts/launchpad/interfaces/IUniswapV2RouterMinimal.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IUniswapV2RouterMinimal"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/libraries/Math.sol": {
+      "lastModificationDate": 1760929660270,
+      "contentHash": "6a9da91b6350fb4252c78b7096f8bf53",
+      "sourceName": "contracts/launchpad/uniswap/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/libraries/SafeMath.sol": {
+      "lastModificationDate": 1760929660269,
+      "contentHash": "9a4225a5ff7c34143d6771008c290ba7",
+      "sourceName": "contracts/launchpad/uniswap/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/launchpad/uniswap/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1760929660269,
+      "contentHash": "e8a73d60a4b22dbbbc8d0d89eeb7fe1a",
+      "sourceName": "contracts/launchpad/uniswap/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/mac/Desktop/CODE/pushchain-Uniswap-Amm/Push-Launch-V1/PushLaunchPadHH-ps/contracts/mocks/MockERC20.sol": {
+      "lastModificationDate": 1760928625369,
+      "contentHash": "7d313ae3e863e070bfae82c8fc8582b0",
+      "sourceName": "contracts/mocks/MockERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "MockERC20"
+      ]
+    }
+  }
+}

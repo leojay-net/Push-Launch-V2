@@ -1,0 +1,40 @@
+.loader {
+    position: relative;
+    width: var(--loader-size, 48px);
+    height: var(--loader-size, 48px);
+}
+
+.loader::before,
+.loader::after {
+    content: "";
+    display: block;
+    border: calc(var(--loader-size, 48px) * 0.66) solid transparent;
+    border-top-color: var(--loader-primary, var(--app-primary));
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: weld-rotate 2s infinite ease-in;
+}
+
+.loader::before {
+    /* Secondary accent */
+    border-color: transparent transparent transparent var(--loader-secondary, #10B981);
+    animation-delay: 0.5s;
+}
+
+@keyframes weld-rotate {
+
+    0%,
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50%,
+    75% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

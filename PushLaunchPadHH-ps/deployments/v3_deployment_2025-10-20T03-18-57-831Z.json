@@ -1,0 +1,20 @@
+{
+  "deployer": "0xFc2A93710538Ba2395F4BD015F088233bb280994",
+  "network": "Push Chain Testnet",
+  "chainId": 42101,
+  "timestamp": "2025-10-20T03:18:27.913Z",
+  "v3Integration": {
+    "factory": "0x81b8Bca02580C7d6b636051FDb7baAC436bFb454",
+    "positionManager": "0xf9b3ac66aed14A2C7D9AA7696841aB6B27a6231e",
+    "swapRouter": "0x5D548bB9E305AAe0d6dc6e6fdc3ab419f6aC0037",
+    "wpc": "0xE17DD2E0509f99E9ee9469Cf6634048Ec5a3ADe9",
+    "feeTier": 500
+  },
+  "ERC1967Factory": "0x4C17bF9C39d23c3Daf26e58222EfBdbd319BE824",
+  "Distributor": "0x4E1501C051592Bd79C2EE0217811e7A72674BA07",
+  "LaunchpadImplementation": "0x28c3fE6bEB8b0e403A4D3C36459d8AF5eED0aA4D",
+  "LaunchpadProxy": "0x451cf6b75805ebA5331F7Daa874767Ec351D4FFc",
+  "SimpleBondingCurve": "0x7cded1CCb5B9DBD6D97B4e96fb42F0e39cc9495F",
+  "VaultImplementation": "0xE7E5462da7C7f2f7A09D74a7E868134d1E328940",
+  "VaultProxy": "0x67991725102aFe906246b835a1aD3D2b8211f18F"
+}

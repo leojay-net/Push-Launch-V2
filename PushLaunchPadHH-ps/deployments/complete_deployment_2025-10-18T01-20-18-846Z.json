@@ -1,0 +1,19 @@
+{
+  "deployer": "0xFc2A93710538Ba2395F4BD015F088233bb280994",
+  "network": "Push Chain Testnet",
+  "chainId": 42101,
+  "timestamp": "2025-10-18T01:19:28.459Z",
+  "WETH": "0x9e9eE7F2e34a61ADC7b9d40F5Cf02b1841dC8dA9",
+  "WETH_Deployed": true,
+  "ERC1967Factory": "0xFDbd3E9b4018Aa044c35830804818BC93eC13c1B",
+  "LaunchpadProxy_Predicted": "0xf6825368cCD35540c28ABAb4A64e6d740Cc5CA8a",
+  "PairFactory": "0xDAbc0d2Ee510885535451528F9C1cf24e2396580",
+  "Router2": "0x133a3108B0e35d1B9D0F5E47A0f5F8ba153Ddb7F",
+  "Distributor": "0x370d25b9bcef2E115113b0759AF2374Af10a446b",
+  "SimpleBondingCurveImpl": "0x25271DEd1fc61BcDd7100D07bA65eF03a349901e",
+  "LaunchpadLPVaultImpl": "0xa6e18e55C85608154e803b8e49f90925867e8FFd",
+  "LaunchpadImpl": "0xEeBd3bce87E7aDd81E4113D25d2B292f431a5E1f",
+  "SimpleBondingCurveProxy": "0xcb515e26503D8091Eee79Ad55a016C0338709507",
+  "LaunchpadLPVaultProxy": "0x3e0F9E341aa037b4a0144415FEB6Bbd0f8f836B0",
+  "LaunchpadProxy": "0xf6825368cCD35540c28ABAb4A64e6d740Cc5CA8a"
+}
